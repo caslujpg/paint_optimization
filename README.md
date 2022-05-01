@@ -24,7 +24,7 @@ Obs.: Projeto executado no sistema operacional linux ubuntu 22.04 LTS
 
 ```bash
 # clone
-$ git clone git@gitlab.com:caslujpg/code-challenge.git
+$ git clone git@github.com:caslujpg/paint_optimization.git
 
 # abrir pasta
 $ cd code-challenge
