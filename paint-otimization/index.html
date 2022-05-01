@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Code Challenge</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet"> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+    <header>
+            <div class="title-page">
+                <h1 class="h1-title" style="font-weight: bold;">Optimized Painting</h1>
+                <img src="images/header-page-crafted.jpg" corder="0" title="Pagina de Otimização de Pintura" class="background-start">
+                
+            
+            </div>
+    </header>
+        <ul>
+                <div class="wall-size">
+                        <br>
+                        <h1>Parede 1 </h1>
+                            <input data-js="width-wall-01" value="" placeholder="Largura" maxlength="5" />
+                            <br>
+                            <p><span class="m-input-info no-background" data-message-container="">Largura em metros. Ex: 5.50</span></p>
+                            <input data-js="height-wall-01" value="" placeholder="Altura" maxlength="5" />
+                            <br>
+                            <p><span class="m-input-info no-background" data-message-container="">Altura em metros. Ex: 5.50</span></p> 
+                             <input data-js="door-wall-01" value="" placeholder="Porta(s)" maxlength="5" />
+                            <br>
+                            <p><span class="m-input-info no-background" data-message-container="">Portas Nesta Parede. Ex: 1</span></p>
+                            <br>
+                    
+                    
+                        <h1>Parede 2</h1>
+                            <input data-js="width-wall-02" placeholder="Largura" maxlength="5" />
+                            <br>
+                            <p><span class="m-input-info no-background" data-message-container="">Largura em metros. Ex: 5.50</span></p>
+                            <input data-js="height-wall-02" value="" placeholder="Altura" maxlength="5" />
+                            <br>
+                            <p><span class="m-input-info no-background" data-message-container="">Altura em metros. Ex: 5.50</span></p>
+                            <input data-js="door-wall-02" placeholder="Porta(s)" maxlength="5" />
+                            <br>
+                            <p><span class="m-input-info no-background" data-message-container="">Portas Nesta Parede. Ex: 1</span></p>
+                            <br>
+                   
+                    
+              
+                        <h1>Parede 3</h1>
+                             <input data-js="width-wall-03" placeholder="Largura" maxlength="5" />
+                             <br>
+                             <p><span class="m-input-info no-background" data-message-container="">Largura em metros. Ex: 5.50</span></p>
+                             <input data-js="height-wall-03" value="" placeholder="Altura" maxlength="5" />
+                             <br>
+                             <p><span class="m-input-info no-background" data-message-container="">Altura em metros. Ex: 5.50</span></p>
+                             <input data-js="door-wall-03" placeholder="Porta(s)" maxlength="5" />
+                             <br>
+                             <p><span class="m-input-info no-background" data-message-container="">Portas Nesta Parede. Ex: 1</span></p>
+                             <br>
+                  
+             
+                       <h1>Parede 4</h1>
+                            <input data-js="width-wall-04" placeholder="Largura" maxlength="5" />
+                            <br>
+                            <p><span class="m-input-info no-background" data-message-container="">Largura em metros. Ex: 5.50</span></p>
+                            <input data-js="height-wall-04" value="" placeholder="Altura" maxlength="5" />
+                            <br>
+                            <p><span class="m-input-info no-background" data-message-container="">Altura em metros. Ex: 5.50</span></p>
+                            <input data-js="door-wall-04" placeholder="Porta(s)" maxlength="5" />
+                            <br>
+                            <p><span class="m-input-info no-background" data-message-container="">Portas Nesta Parede. Ex: 1</span></p>
+                            <br>
+                    
+                
+                        <h1>Janelas</h1>
+                            <br>
+                            <br>
+                            <input data-js="windows" value="" placeholder="Janela(s)" maxlength="5" />
+                            <br>
+                            <p><span class="m-input-info no-background" data-message-container="">Quantidade de Janela(s) no Cômodo. Ex: 2</span></p>
+                            <br>
+                            <br>
+
+                 
+            </div>
+            <div class="calculate">
+                <p><span class="m-input-info no-background" data-message-container="">Portas: 0.8m x 1.9m<br>Janelas: 1.2m x 2.0m</span></p>
+                <button class="submit-button" data-js="button-calculate-area"><span>Calcular Area</span></button>
+                <br>
+                <br>
+                <input type="text" value="0" readonly data-js="visor"> m²
+            </div> 
+            <div class="results">
+                <div class="results-children">
+                    <h1 class="h1-title-footer">Para Pintar Este Cômodo Você Precisará De</h1>
+                    <br>
+                    <input type="text" data-js="visor-01" value="0" readonly/> <span>Lata(s) de 0.5L</span>
+                    <br>
+                    <input type="text" data-js="visor-02" value="0" readonly/> <span>Lata(s) de 2.5L</span>
+                    <br>
+                    <input type="text" data-js="visor-03" value="0" readonly/> <span>Lata(s) de 3.6L</span>
+                    <br>
+                    <input type="text" data-js="visor-04" value="0" readonly/> <span>Lata(s) de 18 L</span>
+                </div>    
+            </div>
+
+
+        </ul>
+    </form>
+
+
+    <script src="DOM.js"></script>
+    <script src="code-challenge.js"></script>
+</body>
+
+</html>
