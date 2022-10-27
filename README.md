@@ -1,4 +1,4 @@
-<h3 align="center">Optimized Painting</h3>
+<h1 align="center">Optimized Painting</h1>
 <p align="center">
    Uma aplicação web para calcular a quantidade de tinta necessária para pintar um cômodo. Esta aplicação considera um cômodo com 4 paredes onde o usuario escolhe a medida de cada parede em metros, a quantidade de portas por paredes e janelas no cômodo. Com base nisso o sistema apresenta qual melhor opção de compra de latas de tinta para o usuário.! <br/>
 
