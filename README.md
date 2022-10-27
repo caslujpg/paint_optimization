@@ -7,7 +7,7 @@
 <p align="center">
    Uma aplicação web para calcular a quantidade de tinta necessária para pintar um cômodo. Esta aplicação considera um cômodo com 4 paredes onde o usuario escolhe a medida de cada parede em metros, a quantidade de portas por paredes e janelas no cômodo. Com base nisso o sistema apresenta qual melhor opção de compra de latas de tinta para o usuário.! <br/>
 
-   [image](https://user-images.githubusercontent.com/61885918/198201821-8666827d-e891-4249-af12-ee6ac3bd564c.png)
+![image](https://user-images.githubusercontent.com/61885918/198201821-8666827d-e891-4249-af12-ee6ac3bd564c.png)
 
 </p>
 
